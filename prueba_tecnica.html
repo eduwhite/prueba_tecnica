@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Prueba Técnica</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="Prueba Técnica">
+    <meta name="author" content="Eduardo White">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+	<!-- Font Awesome CDN CSS   -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<!-- Custom CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+	<header>
+		<div class="container cabecera">
+			<a class="navbar-brand" href="#">Texto que se incluye en la cabecera</a>
+			<nav class="nav">	
+				<ul class="nav justify-content-center">
+					<li class="nav-item">
+						<a href="#formulario" class="btn btn-primary">Contacto</a>
+					</li>
+				</ul>
+			</nav>
+		</div>		
+	</header>
+	<main>
+		<div class="container">
+			<div class="row mb-3 mt-3" id="textos">
+				<div id="parrafo1" class="col-md-4 text-center caja_sombreada">
+					<h2>Textos con botónes</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt culpa dicta quas facilis porro ipsum! Ab omnis provident sequi laborum ullam, facere cupiditate odio sunt repudiandae.</p>
+					<p><a href="#parrafo2" class="btn btn-info">Ir al Parrafo 2</a></p>
+				</div>
+				<div id="parrafo2" class="col-md-4 text-center caja_sombreada">
+					<h2>Textos con botónes</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt culpa dicta quas facilis porro ipsum! Ab omnis provident sequi laborum ullam, facere cupiditate odio sunt repudiandae.</p>
+					<p><a href="#parrafo1" class="btn btn-info">Ir al Parrafo 1</a></p>
+				</div>
+				<div class="col-md-4 text-center caja_sombreada">
+					<h2>Textos botón Ofuscado</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt culpa dicta quas facilis porro ipsum! Ab omnis provident sequi laborum ullam, facere cupiditate odio sunt repudiandae.</p>
+					<p><span class="btn btn-info" onclick="window.location.href='http://interhanse.com';">Enlace Ofuscado</span></p>
+				</div>
+			</div>
+
+			<div id="slider_textos" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#slider_textos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide_1"></button>
+					<button type="button" data-bs-target="#slider_textos" data-bs-slide-to="1" aria-label="Slide_2"></button>
+					<button type="button" data-bs-target="#slider_textos" data-bs-slide-to="2" aria-label="Slide_3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div id="parrafo1" class="col-md-4 text-center m-t m-b m-t-80-m caja_sombreada">
+							<h2>Textos con botónes</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt culpa dicta quas facilis porro ipsum! Ab omnis provident sequi laborum ullam, facere cupiditate odio sunt repudiandae.</p>
+							<p><a href="#parrafo2" class="btn btn-info">Ir al Parrafo 2</a></p>
+						</div>
+					</div>
+					<div class="carousel-item">
+				  		<div id="parrafo2" class="col-md-4 text-center m-t m-b m-t-80-m caja_sombreada">
+							<h2>Textos con botónes</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt culpa dicta quas facilis porro ipsum! Ab omnis provident sequi laborum ullam, facere cupiditate odio sunt repudiandae.</p>
+							<p><a href="#parrafo1" class="btn btn-info">Ir al Parrafo 1</a></p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-4 text-center m-t m-b m-t-80-m caja_sombreada">
+							<h2>Textos botón Ofuscado</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt culpa dicta quas facilis porro ipsum! Ab omnis provident sequi laborum ullam, facere cupiditate odio sunt repudiandae.</p>
+							<p><span class="btn btn-info" onclick="window.location.href='http://interhanse.com';">Enlace Ofuscado</span></p>
+						</div>  		
+					</div>
+				</div>
+			  	<button class="carousel-control-prev" type="button" data-bs-target="#slider_textos" data-bs-slide="prev">
+			    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    	<span class="visually-hidden">Anterior</span>
+			  	</button>
+			  	<button class="carousel-control-next" type="button" data-bs-target="#slider_textos" data-bs-slide="next">
+			    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    	<span class="visually-hidden">Siguiente</span>
+			  	</button>
+			</div>
+			<div class="row mb-3 mt-3 carrusel">
+				<div class="col-lg-4 col-xs-12">
+					<h2>Texto con Carrusel</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro illo ab reprehenderit saepe optio, minima quis aspernatur blanditiis error quas! Nisi omnis perferendis laboriosam magni asperiores, quisquam dolorem voluptas voluptatum. </p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro illo ab reprehenderit saepe optio, minima quis aspernatur blanditiis error quas! Nisi omnis perferendis laboriosam magni asperiores, quisquam dolorem voluptas voluptatum. </p>
+				</div>
+				<div class="col-lg-8 col-xs-12">	
+					<div id="slider_prueba" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#slider_prueba" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#slider_prueba" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#slider_prueba" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+						  		<img loading="lazy" src="http://lorempixel.com/output/technics-q-c-800-400-1.jpg" alt="imagen 1">
+							</div>
+							<div class="carousel-item">
+						  		<img loading="lazy" src="http://lorempixel.com/output/technics-q-c-800-400-2.jpg" alt="imagen 2">
+							</div>
+							<div class="carousel-item">
+						  		<img loading="lazy" src="http://lorempixel.com/output/technics-q-c-800-400-3.jpg" alt="imagen 3">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#slider_prueba" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Anterior</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#slider_prueba" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Siguiente</span>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<form id="formulario" class="form_" method="post" action="registro.php">
+					<h2>Formulario de Contacto</h2>
+					<div class="row">
+						<div class="col-lg-6 col-xs-12 mb-3 ">
+							<label for="campo1" class="form-label">Nombre:</label>
+							<input type="text" class="form-control" id="campo1" required >
+						</div>
+						<div class="col-lg-6 col-xs-12 mb-3">
+							<label for="campo2" class="form-label">Apellidos:</label>
+							<input type="text" class="form-control" id="campo2" required >
+						</div>
+					</div>
+					<div class="row">	
+						<div class="col-lg-6 col-xs-12 mb-3">
+							<label for="campo3" class="form-label">Password</label>
+							<input type="password" class="form-control" id="campo3" required >
+						</div>
+						<div class="col-lg-6 col-xs-12 mb-3">
+							<label for="campo4" class="form-label">Fecha:</label>
+							<input type="date" class="form-control" id="campo4" required >
+						</div>
+					</div>	
+					<div class="row">	
+						<div class="col-xs-12 mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="campocheck" required >
+							<label class="form-check-label" for="campocheck">Acepto las condiciones</label>
+						</div>
+					</div>		
+					<button type="submit" class="btn btn-primary">Enviar</button>
+					</form>
+				<div class="mensaje" id="mensaje"></div>
+				</div>
+			</div>
+		</div>	
+	</main>
+	<footer>
+	    <div class="container">
+			<div class="row">
+				<div class="col-md-4 col-xs-12 col_footer">
+					<h3>Prueba Técnica</h3>
+					<img src="img/logo.png" alt="Logo">
+				</div>
+				<div class="col-md-4 col-xs-12 col_footer">
+					<h3>Nuestras RRSS</h3>
+					<ul>
+                        <li class="redes"><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                        <li class="redes"><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                        <li class="redes"><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                        <li class="redes"><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+                    </ul>
+				</div>
+                <div class="col-md-4 col-xs-12 col_footer">
+                    <h3>Donde estamos</h3>
+                    <ul>
+                        <li><p><i class="fas fa-map-marker-alt"></i> Dirección: C/ La Alameda nº69 <br>Málaga - 29130</p></li>
+                        <li><p><i class="fas fa-phone-square"></i> Phone: Telf: +34 600 111 999</p></li>
+                        <li><p><i class="fas fa-envelope"></i> Email: info@administrador.es</p></li>
+                    </ul>
+                </div>
+			</div>
+	    </div>
+	</footer>
+
+	<!-- Popper and Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+	<!-- AJAX -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</body>
+</html>
