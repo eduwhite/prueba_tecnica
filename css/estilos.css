@@ -88,8 +88,13 @@ a{
 	text-align: center;
 }
 
+.carrusel p{
+	padding: 15px;
+}
+
 .carousel {
     margin-top: 20px;
+    margin-bottom: 20px;
 }    
 
 span{
@@ -143,6 +148,10 @@ footer img {
 
 .col_footer li i{
 	font-size: 20px;
+}
+
+.col_footer li a{
+	color: white;
 }
 
 .redes{
