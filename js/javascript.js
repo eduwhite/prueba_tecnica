@@ -1,7 +1,6 @@
 $(document).ready(function(){
         $("#formulario").submit(function(event){
                 var parametros = $(this).serialize();
-                console.log(parametros);
                 $.ajax({
                         type: "POST",
                         url: "php/registro.php",
